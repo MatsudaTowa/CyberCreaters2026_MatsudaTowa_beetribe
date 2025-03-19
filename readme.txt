@@ -16,8 +16,6 @@
 
 ◆紹介動画
 https://youtu.be/4Q5Fo06f1JI
-◆git
-https://github.com/MatsudaTowa/TPS
 
 ◆起動方法
 フォルダ内のexeファイルを起動することでゲームスタート
