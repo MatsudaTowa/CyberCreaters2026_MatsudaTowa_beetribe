@@ -18,6 +18,270 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\action_UI.cpp" />
+    <ClCompile Include="src\active_player.cpp" />
+    <ClCompile Include="src\active_scene.cpp" />
+    <ClCompile Include="src\active_scene_state.cpp" />
+    <ClCompile Include="src\ammo_UI.cpp" />
+    <ClCompile Include="src\assault_behavior.cpp" />
+    <ClCompile Include="src\attack_manager.cpp" />
+    <ClCompile Include="src\billboard.cpp" />
+    <ClCompile Include="src\blink_back_UI.cpp" />
+    <ClCompile Include="src\blink_icon.cpp" />
+    <ClCompile Include="src\blink_UI.cpp" />
+    <ClCompile Include="src\block.cpp" />
+    <ClCompile Include="src\block_piece.cpp" />
+    <ClCompile Include="src\boss_behavior.cpp" />
+    <ClCompile Include="src\boss_enemy.cpp" />
+    <ClCompile Include="src\boss_state.cpp" />
+    <ClCompile Include="src\broken_smoke.cpp" />
+    <ClCompile Include="src\bullet.cpp" />
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\camera_state.cpp" />
+    <ClCompile Include="src\centerdot.cpp" />
+    <ClCompile Include="src\character.cpp" />
+    <ClCompile Include="src\character_behavior.cpp" />
+    <ClCompile Include="src\character_state.cpp" />
+    <ClCompile Include="src\close_pause_UI.cpp" />
+    <ClCompile Include="src\colision.cpp" />
+    <ClCompile Include="src\crosshair.cpp" />
+    <ClCompile Include="src\dash_effect.cpp" />
+    <ClCompile Include="src\death_icon.cpp" />
+    <ClCompile Include="src\decimal_point.cpp" />
+    <ClCompile Include="src\enemy.cpp" />
+    <ClCompile Include="src\enemy_behavior.cpp" />
+    <ClCompile Include="src\enemy_confusion_UI.cpp" />
+    <ClCompile Include="src\enemy_reaction_UI.cpp" />
+    <ClCompile Include="src\fade.cpp" />
+    <ClCompile Include="src\field.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\game_player.cpp" />
+    <ClCompile Include="src\game_score.cpp" />
+    <ClCompile Include="src\game_state.cpp" />
+    <ClCompile Include="src\gauge.cpp" />
+    <ClCompile Include="src\gun.cpp" />
+    <ClCompile Include="src\gun_behavior.cpp" />
+    <ClCompile Include="src\gun_icon.cpp" />
+    <ClCompile Include="src\hitmaker.cpp" />
+    <ClCompile Include="src\hit_camera_effect.cpp" />
+    <ClCompile Include="src\hit_camera_effect_mild.cpp" />
+    <ClCompile Include="src\hit_camera_effect_moderate.cpp" />
+    <ClCompile Include="src\hit_camera_effect_severe.cpp" />
+    <ClCompile Include="src\input.cpp" />
+    <ClCompile Include="src\keyboard_UI.cpp" />
+    <ClCompile Include="src\life_UI.cpp" />
+    <ClCompile Include="src\light.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\manager.cpp" />
+    <ClCompile Include="src\mask.cpp" />
+    <ClCompile Include="src\minigun_behavior.cpp" />
+    <ClCompile Include="src\model.cpp" />
+    <ClCompile Include="src\model_parts.cpp" />
+    <ClCompile Include="src\mouse_UI.cpp" />
+    <ClCompile Include="src\move_point.cpp" />
+    <ClCompile Include="src\muzzle_flash.cpp" />
+    <ClCompile Include="src\normal_enemy.cpp" />
+    <ClCompile Include="src\normal_enemy_behavior.cpp" />
+    <ClCompile Include="src\number.cpp" />
+    <ClCompile Include="src\object.cpp" />
+    <ClCompile Include="src\object2D.cpp" />
+    <ClCompile Include="src\object2D_anim.cpp" />
+    <ClCompile Include="src\object3D.cpp" />
+    <ClCompile Include="src\objectX.cpp" />
+    <ClCompile Include="src\pause_mask.cpp" />
+    <ClCompile Include="src\pause_select.cpp" />
+    <ClCompile Include="src\pause_select_continue.cpp" />
+    <ClCompile Include="src\pause_select_quit.cpp" />
+    <ClCompile Include="src\pause_select_retry.cpp" />
+    <ClCompile Include="src\pause_select_setting.cpp" />
+    <ClCompile Include="src\player.cpp" />
+    <ClCompile Include="src\player_behavior.cpp" />
+    <ClCompile Include="src\player_state.cpp" />
+    <ClCompile Include="src\player_UI_box.cpp" />
+    <ClCompile Include="src\precompile.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\reload_txt.cpp" />
+    <ClCompile Include="src\reload_UI.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\result.cpp" />
+    <ClCompile Include="src\result_screen.cpp" />
+    <ClCompile Include="src\reticle.cpp" />
+    <ClCompile Include="src\scene.cpp" />
+    <ClCompile Include="src\score.cpp" />
+    <ClCompile Include="src\sens_txt_UI.cpp" />
+    <ClCompile Include="src\setting_UI.cpp" />
+    <ClCompile Include="src\shadow.cpp" />
+    <ClCompile Include="src\smoke.cpp" />
+    <ClCompile Include="src\smoke_grenade.cpp" />
+    <ClCompile Include="src\smoke_icon.cpp" />
+    <ClCompile Include="src\smoke_range.cpp" />
+    <ClCompile Include="src\smoke_UI.cpp" />
+    <ClCompile Include="src\sound.cpp" />
+    <ClCompile Include="src\stencil_mask.cpp" />
+    <ClCompile Include="src\tackle_charge.cpp" />
+    <ClCompile Include="src\tactical_smoke.cpp" />
+    <ClCompile Include="src\test.cpp" />
+    <ClCompile Include="src\texture.cpp" />
+    <ClCompile Include="src\title.cpp" />
+    <ClCompile Include="src\title_player.cpp" />
+    <ClCompile Include="src\title_screen.cpp" />
+    <ClCompile Include="src\tutorial.cpp" />
+    <ClCompile Include="src\tutorial_player.cpp" />
+    <ClCompile Include="src\tutorial_screen.cpp" />
+    <ClCompile Include="src\tutorial_state.cpp" />
+    <ClCompile Include="src\tutorial_UI.cpp" />
+    <ClCompile Include="src\ult.cpp" />
+    <ClCompile Include="src\ult_camera_effect.cpp" />
+    <ClCompile Include="src\ult_effect.cpp" />
+    <ClCompile Include="src\ult_icon.cpp" />
+    <ClCompile Include="src\ult_icon_effect.cpp" />
+    <ClCompile Include="src\ult_range.cpp" />
+    <ClCompile Include="src\ult_UI.cpp" />
+    <ClCompile Include="src\useful.cpp" />
+    <ClCompile Include="src\wall.cpp" />
+    <ClCompile Include="src\wave.cpp" />
+    <ClCompile Include="src\wave_boss.cpp" />
+    <ClCompile Include="src\wave_one.cpp" />
+    <ClCompile Include="src\wave_result.cpp" />
+    <ClCompile Include="src\wave_result_screen.cpp" />
+    <ClCompile Include="src\wave_score.cpp" />
+    <ClCompile Include="src\wave_three.cpp" />
+    <ClCompile Include="src\wave_two.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\action_UI.h" />
+    <ClInclude Include="src\active_player.h" />
+    <ClInclude Include="src\active_scene.h" />
+    <ClInclude Include="src\active_scene_state.h" />
+    <ClInclude Include="src\ammo_UI.h" />
+    <ClInclude Include="src\assault_behavior.h" />
+    <ClInclude Include="src\attack_manager.h" />
+    <ClInclude Include="src\billboard.h" />
+    <ClInclude Include="src\blink_back_UI.h" />
+    <ClInclude Include="src\blink_icon.h" />
+    <ClInclude Include="src\blink_UI.h" />
+    <ClInclude Include="src\block.h" />
+    <ClInclude Include="src\block_piece.h" />
+    <ClInclude Include="src\boss_behavior.h" />
+    <ClInclude Include="src\boss_enemy.h" />
+    <ClInclude Include="src\boss_state.h" />
+    <ClInclude Include="src\broken_smoke.h" />
+    <ClInclude Include="src\bullet.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\camera_state.h" />
+    <ClInclude Include="src\centerdot.h" />
+    <ClInclude Include="src\character.h" />
+    <ClInclude Include="src\character_behavior.h" />
+    <ClInclude Include="src\character_state.h" />
+    <ClInclude Include="src\close_pause_UI.h" />
+    <ClInclude Include="src\colision.h" />
+    <ClInclude Include="src\crosshair.h" />
+    <ClInclude Include="src\dash_effect.h" />
+    <ClInclude Include="src\death_icon.h" />
+    <ClInclude Include="src\decimal_point.h" />
+    <ClInclude Include="src\enemy.h" />
+    <ClInclude Include="src\enemy_behavior.h" />
+    <ClInclude Include="src\enemy_confusion_UI.h" />
+    <ClInclude Include="src\enemy_reaction_UI.h" />
+    <ClInclude Include="src\fade.h" />
+    <ClInclude Include="src\field.h" />
+    <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\game_player.h" />
+    <ClInclude Include="src\game_score.h" />
+    <ClInclude Include="src\game_state.h" />
+    <ClInclude Include="src\gauge.h" />
+    <ClInclude Include="src\gun.h" />
+    <ClInclude Include="src\gun_behavior.h" />
+    <ClInclude Include="src\gun_icon.h" />
+    <ClInclude Include="src\hitmaker.h" />
+    <ClInclude Include="src\hit_camera_effect.h" />
+    <ClInclude Include="src\hit_camera_effect_mild.h" />
+    <ClInclude Include="src\hit_camera_effect_moderate.h" />
+    <ClInclude Include="src\hit_camera_effect_severe.h" />
+    <ClInclude Include="src\input.h" />
+    <ClInclude Include="src\keyboard_UI.h" />
+    <ClInclude Include="src\life_UI.h" />
+    <ClInclude Include="src\light.h" />
+    <ClInclude Include="src\main.h" />
+    <ClInclude Include="src\manager.h" />
+    <ClInclude Include="src\mask.h" />
+    <ClInclude Include="src\minigun_behavior.h" />
+    <ClInclude Include="src\model.h" />
+    <ClInclude Include="src\model_parts.h" />
+    <ClInclude Include="src\mouse_UI.h" />
+    <ClInclude Include="src\move_point.h" />
+    <ClInclude Include="src\muzzle_flash.h" />
+    <ClInclude Include="src\normal_enemy.h" />
+    <ClInclude Include="src\normal_enemy_behavior.h" />
+    <ClInclude Include="src\number.h" />
+    <ClInclude Include="src\object.h" />
+    <ClInclude Include="src\object2D.h" />
+    <ClInclude Include="src\object2D_anim.h" />
+    <ClInclude Include="src\object3D.h" />
+    <ClInclude Include="src\objectX.h" />
+    <ClInclude Include="src\pause_mask.h" />
+    <ClInclude Include="src\pause_select.h" />
+    <ClInclude Include="src\pause_select_continue.h" />
+    <ClInclude Include="src\pause_select_quit.h" />
+    <ClInclude Include="src\pause_select_retry.h" />
+    <ClInclude Include="src\pause_select_setting.h" />
+    <ClInclude Include="src\player.h" />
+    <ClInclude Include="src\player_behavior.h" />
+    <ClInclude Include="src\player_state.h" />
+    <ClInclude Include="src\player_UI_box.h" />
+    <ClInclude Include="src\precompile.h" />
+    <ClInclude Include="src\reload_txt.h" />
+    <ClInclude Include="src\reload_UI.h" />
+    <ClInclude Include="src\renderer.h" />
+    <ClInclude Include="src\result.h" />
+    <ClInclude Include="src\result_screen.h" />
+    <ClInclude Include="src\reticle.h" />
+    <ClInclude Include="src\scene.h" />
+    <ClInclude Include="src\score.h" />
+    <ClInclude Include="src\sens_number.h" />
+    <ClInclude Include="src\sens_txt_UI.h" />
+    <ClInclude Include="src\setting_UI.h" />
+    <ClInclude Include="src\shadow.h" />
+    <ClInclude Include="src\smoke.h" />
+    <ClInclude Include="src\smoke_grenade.h" />
+    <ClInclude Include="src\smoke_icon.h" />
+    <ClInclude Include="src\smoke_range.h" />
+    <ClInclude Include="src\smoke_UI.h" />
+    <ClInclude Include="src\sound.h" />
+    <ClInclude Include="src\stencil_mask.h" />
+    <ClInclude Include="src\tackle_charge.h" />
+    <ClInclude Include="src\tactical_smoke.h" />
+    <ClInclude Include="src\test.h" />
+    <ClInclude Include="src\texture.h" />
+    <ClInclude Include="src\title.h" />
+    <ClInclude Include="src\title_player.h" />
+    <ClInclude Include="src\title_screen.h" />
+    <ClInclude Include="src\tutorial.h" />
+    <ClInclude Include="src\tutorial_player.h" />
+    <ClInclude Include="src\tutorial_screen.h" />
+    <ClInclude Include="src\tutorial_state.h" />
+    <ClInclude Include="src\tutorial_UI.h" />
+    <ClInclude Include="src\ult.h" />
+    <ClInclude Include="src\ult_camera_effect.h" />
+    <ClInclude Include="src\ult_effect.h" />
+    <ClInclude Include="src\ult_icon.h" />
+    <ClInclude Include="src\ult_icon_effect.h" />
+    <ClInclude Include="src\ult_range.h" />
+    <ClInclude Include="src\ult_UI.h" />
+    <ClInclude Include="src\useful.h" />
+    <ClInclude Include="src\wall.h" />
+    <ClInclude Include="src\wave.h" />
+    <ClInclude Include="src\wave_boss.h" />
+    <ClInclude Include="src\wave_one.h" />
+    <ClInclude Include="src\wave_result.h" />
+    <ClInclude Include="src\wave_result_screen.h" />
+    <ClInclude Include="src\wave_score.h" />
+    <ClInclude Include="src\wave_three.h" />
+    <ClInclude Include="src\wave_two.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -99,6 +363,7 @@
       <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -117,6 +382,7 @@
       <PrecompiledHeaderFile>precompile.h</PrecompiledHeaderFile>
       <ForcedIncludeFiles>precompile.h</ForcedIncludeFiles>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -131,6 +397,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -145,6 +412,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -153,232 +421,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="action_UI.cpp" />
-    <ClCompile Include="ammo_UI.cpp" />
-    <ClCompile Include="assault_behavior.cpp" />
-    <ClCompile Include="attack_manager.cpp" />
-    <ClCompile Include="billboard.cpp" />
-    <ClCompile Include="blink_back_UI.cpp" />
-    <ClCompile Include="blink_icon.cpp" />
-    <ClCompile Include="blink_UI.cpp" />
-    <ClCompile Include="block.cpp" />
-    <ClCompile Include="block_piece.cpp" />
-    <ClCompile Include="boss_behavior.cpp" />
-    <ClCompile Include="boss_enemy.cpp" />
-    <ClCompile Include="boss_state.cpp" />
-    <ClCompile Include="broken_smoke.cpp" />
-    <ClCompile Include="bullet.cpp" />
-    <ClCompile Include="camera.cpp" />
-    <ClCompile Include="camera_state.cpp" />
-    <ClCompile Include="centerdot.cpp" />
-    <ClCompile Include="character.cpp" />
-    <ClCompile Include="character_behavior.cpp" />
-    <ClCompile Include="character_state.cpp" />
-    <ClCompile Include="colision.cpp" />
-    <ClCompile Include="crosshair.cpp" />
-    <ClCompile Include="dash_effect.cpp" />
-    <ClCompile Include="death_icon.cpp" />
-    <ClCompile Include="enemy.cpp" />
-    <ClCompile Include="enemy_behavior.cpp" />
-    <ClCompile Include="enemy_reaction_UI.cpp" />
-    <ClCompile Include="enemy_reload_UI.cpp" />
-    <ClCompile Include="enemy_confusion_UI.cpp" />
-    <ClCompile Include="fade.cpp" />
-    <ClCompile Include="field.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="game_score.cpp" />
-    <ClCompile Include="gauge.cpp" />
-    <ClCompile Include="gun.cpp" />
-    <ClCompile Include="gun_behavior.cpp" />
-    <ClCompile Include="gun_icon.cpp" />
-    <ClCompile Include="hitmaker.cpp" />
-    <ClCompile Include="hit_camera_effect.cpp" />
-    <ClCompile Include="hit_camera_effect_mild.cpp" />
-    <ClCompile Include="hit_camera_effect_moderate.cpp" />
-    <ClCompile Include="hit_camera_effect_severe.cpp" />
-    <ClCompile Include="icon.cpp" />
-    <ClCompile Include="input.cpp" />
-    <ClCompile Include="keyboard_UI.cpp" />
-    <ClCompile Include="life_UI.cpp" />
-    <ClCompile Include="light.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="manager.cpp" />
-    <ClCompile Include="mask.cpp" />
-    <ClCompile Include="minigun_behavior.cpp" />
-    <ClCompile Include="model.cpp" />
-    <ClCompile Include="model_parts.cpp" />
-    <ClCompile Include="mouse_UI.cpp" />
-    <ClCompile Include="move_point.cpp" />
-    <ClCompile Include="muzzle_flash.cpp" />
-    <ClCompile Include="object2D_anim.cpp" />
-    <ClCompile Include="normal_enemy.cpp" />
-    <ClCompile Include="normal_enemy_behavior.cpp" />
-    <ClCompile Include="number.cpp" />
-    <ClCompile Include="object.cpp" />
-    <ClCompile Include="object2D.cpp" />
-    <ClCompile Include="object3D.cpp" />
-    <ClCompile Include="objectX.cpp" />
-    <ClCompile Include="player_behavior.cpp" />
-    <ClCompile Include="player_state.cpp" />
-    <ClCompile Include="player.cpp" />
-    <ClCompile Include="player_UI_box.cpp" />
-    <ClCompile Include="precompile.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="renderer.cpp" />
-    <ClCompile Include="result.cpp" />
-    <ClCompile Include="result_screen.cpp" />
-    <ClCompile Include="reticle.cpp" />
-    <ClCompile Include="scene.cpp" />
-    <ClCompile Include="score.cpp" />
-    <ClCompile Include="shadow.cpp" />
-    <ClCompile Include="smoke.cpp" />
-    <ClCompile Include="smoke_grenade.cpp" />
-    <ClCompile Include="smoke_icon.cpp" />
-    <ClCompile Include="smoke_range.cpp" />
-    <ClCompile Include="smoke_UI.cpp" />
-    <ClCompile Include="sound.cpp" />
-    <ClCompile Include="tackle_charge.cpp" />
-    <ClCompile Include="tactical_smoke.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="texture.cpp" />
-    <ClCompile Include="title.cpp" />
-    <ClCompile Include="title_screen.cpp" />
-    <ClCompile Include="tutorial.cpp" />
-    <ClCompile Include="tutorial_screen.cpp" />
-    <ClCompile Include="tutorial_UI.cpp" />
-    <ClCompile Include="ult.cpp" />
-    <ClCompile Include="ult_camera_effect.cpp" />
-    <ClCompile Include="ult_effect.cpp" />
-    <ClCompile Include="ult_icon.cpp" />
-    <ClCompile Include="ult_icon_effect.cpp" />
-    <ClCompile Include="ult_range.cpp" />
-    <ClCompile Include="ult_UI.cpp" />
-    <ClCompile Include="useful.cpp" />
-    <ClCompile Include="wall.cpp" />
-    <ClCompile Include="wave.cpp" />
-    <ClCompile Include="wave_boss.cpp" />
-    <ClCompile Include="wave_one.cpp" />
-    <ClCompile Include="wave_result.cpp" />
-    <ClCompile Include="wave_result_screen.cpp" />
-    <ClCompile Include="wave_score.cpp" />
-    <ClCompile Include="wave_three.cpp" />
-    <ClCompile Include="wave_two.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="action_UI.h" />
-    <ClInclude Include="ammo_UI.h" />
-    <ClInclude Include="assault_behavior.h" />
-    <ClInclude Include="attack_manager.h" />
-    <ClInclude Include="billboard.h" />
-    <ClInclude Include="blink_back_UI.h" />
-    <ClInclude Include="blink_icon.h" />
-    <ClInclude Include="blink_UI.h" />
-    <ClInclude Include="block.h" />
-    <ClInclude Include="block_piece.h" />
-    <ClInclude Include="boss_behavior.h" />
-    <ClInclude Include="boss_enemy.h" />
-    <ClInclude Include="boss_state.h" />
-    <ClInclude Include="broken_smoke.h" />
-    <ClInclude Include="bullet.h" />
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="camera_state.h" />
-    <ClInclude Include="centerdot.h" />
-    <ClInclude Include="character.h" />
-    <ClInclude Include="character_behavior.h" />
-    <ClInclude Include="character_state.h" />
-    <ClInclude Include="colision.h" />
-    <ClInclude Include="crosshair.h" />
-    <ClInclude Include="dash_effect.h" />
-    <ClInclude Include="death_icon.h" />
-    <ClInclude Include="enemy.h" />
-    <ClInclude Include="enemy_behavior.h" />
-    <ClInclude Include="enemy_reaction_UI.h" />
-    <ClInclude Include="enemy_reload_UI.h" />
-    <ClInclude Include="enemy_state.h" />
-    <ClInclude Include="enemy_confusion_UI.h" />
-    <ClInclude Include="fade.h" />
-    <ClInclude Include="field.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="game_score.h" />
-    <ClInclude Include="gauge.h" />
-    <ClInclude Include="gun.h" />
-    <ClInclude Include="gun_behavior.h" />
-    <ClInclude Include="gun_icon.h" />
-    <ClInclude Include="hitmaker.h" />
-    <ClInclude Include="hit_camera_effect.h" />
-    <ClInclude Include="hit_camera_effect_mild.h" />
-    <ClInclude Include="hit_camera_effect_moderate.h" />
-    <ClInclude Include="hit_camera_effect_severe.h" />
-    <ClInclude Include="icon.h" />
-    <ClInclude Include="input.h" />
-    <ClInclude Include="keyboard_UI.h" />
-    <ClInclude Include="life_UI.h" />
-    <ClInclude Include="light.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="manager.h" />
-    <ClInclude Include="mask.h" />
-    <ClInclude Include="minigun_behavior.h" />
-    <ClInclude Include="model.h" />
-    <ClInclude Include="model_parts.h" />
-    <ClInclude Include="mouse_UI.h" />
-    <ClInclude Include="move_point.h" />
-    <ClInclude Include="muzzle_flash.h" />
-    <ClInclude Include="object2D_anim.h" />
-    <ClInclude Include="normal_enemy.h" />
-    <ClInclude Include="normal_enemy_behavior.h" />
-    <ClInclude Include="number.h" />
-    <ClInclude Include="object.h" />
-    <ClInclude Include="object2D.h" />
-    <ClInclude Include="object3D.h" />
-    <ClInclude Include="objectX.h" />
-    <ClInclude Include="player_behavior.h" />
-    <ClInclude Include="player_state.h" />
-    <ClInclude Include="player.h" />
-    <ClInclude Include="player_UI_box.h" />
-    <ClInclude Include="precompile.h" />
-    <ClInclude Include="renderer.h" />
-    <ClInclude Include="result.h" />
-    <ClInclude Include="result_screen.h" />
-    <ClInclude Include="reticle.h" />
-    <ClInclude Include="scene.h" />
-    <ClInclude Include="score.h" />
-    <ClInclude Include="shadow.h" />
-    <ClInclude Include="smoke.h" />
-    <ClInclude Include="smoke_grenade.h" />
-    <ClInclude Include="smoke_icon.h" />
-    <ClInclude Include="smoke_range.h" />
-    <ClInclude Include="smoke_UI.h" />
-    <ClInclude Include="sound.h" />
-    <ClInclude Include="tackle_charge.h" />
-    <ClInclude Include="tactical_smoke.h" />
-    <ClInclude Include="test.h" />
-    <ClInclude Include="texture.h" />
-    <ClInclude Include="title.h" />
-    <ClInclude Include="title_screen.h" />
-    <ClInclude Include="tutorial.h" />
-    <ClInclude Include="tutorial_screen.h" />
-    <ClInclude Include="tutorial_UI.h" />
-    <ClInclude Include="ult.h" />
-    <ClInclude Include="ult_camera_effect.h" />
-    <ClInclude Include="ult_effect.h" />
-    <ClInclude Include="ult_icon.h" />
-    <ClInclude Include="ult_icon_effect.h" />
-    <ClInclude Include="ult_range.h" />
-    <ClInclude Include="ult_UI.h" />
-    <ClInclude Include="useful.h" />
-    <ClInclude Include="wall.h" />
-    <ClInclude Include="wave.h" />
-    <ClInclude Include="wave_boss.h" />
-    <ClInclude Include="wave_one.h" />
-    <ClInclude Include="wave_result.h" />
-    <ClInclude Include="wave_result_screen.h" />
-    <ClInclude Include="wave_score.h" />
-    <ClInclude Include="wave_three.h" />
-    <ClInclude Include="wave_two.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,678 +1,868 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="リソース ファイル">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="result">
+      <UniqueIdentifier>{129e6d9b-2055-4a7e-b0fa-3bf81404e69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene">
+      <UniqueIdentifier>{11a666b5-7461-48a7-b55d-aa2675992b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\game">
+      <UniqueIdentifier>{b5d71ffe-2650-477f-92a0-580da2cbd0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\tutorial">
+      <UniqueIdentifier>{16898ffd-a9d8-4e30-a44c-1b19a40bac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\player">
+      <UniqueIdentifier>{8ceeb1fa-5874-4467-b4ba-3fd076c55dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\enemy">
+      <UniqueIdentifier>{a0eb383a-e51a-49fd-bec9-5409d9fcabbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\block">
+      <UniqueIdentifier>{0a326a11-317d-4bea-b20d-65eb04e361c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI">
+      <UniqueIdentifier>{9b2abf11-0b31-4b29-ad98-817d46cb32a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\gun">
+      <UniqueIdentifier>{21ce36e4-6e8b-46de-b095-99be60e4b822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\blink">
+      <UniqueIdentifier>{4783808d-3a5c-4f95-ab30-1e1eae959cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\ammo">
+      <UniqueIdentifier>{bb7237bd-0bb8-4a34-8301-d44d320f2542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\enemy\boss">
+      <UniqueIdentifier>{832c7286-2eca-4676-9690-dbb006483d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\smoke">
+      <UniqueIdentifier>{0d76a52e-ff99-413e-9c19-231a1ad283a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\effect">
+      <UniqueIdentifier>{92fae479-48c8-4503-8e8a-b033c5068205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\game\wave">
+      <UniqueIdentifier>{14b429bd-b9a0-4278-8886-a8548f74c32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\effect\hit_camera">
+      <UniqueIdentifier>{308884f9-6208-4454-91e8-db0cc36d350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\reticle">
+      <UniqueIdentifier>{5d61f978-9381-4af7-bc0c-6512d5f288c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{4b585509-7370-4aff-903f-a94999ccf713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{fada4cc9-a434-4d24-bbe5-502de5d9a248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\camera">
+      <UniqueIdentifier>{370859aa-4e86-4233-8c8b-c53dcfbb58f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\character">
+      <UniqueIdentifier>{955af269-0e92-48bf-9e9a-e6752b43ed3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\enemy\normal">
+      <UniqueIdentifier>{250831c5-ee8b-47fd-8007-4f2de1aaccd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\pause">
+      <UniqueIdentifier>{1319a23e-deb4-4698-a223-1a81f3cec2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\pause">
+      <UniqueIdentifier>{6aee3ca7-37a9-4bd3-809b-91951f1e721a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\tutorial\player">
+      <UniqueIdentifier>{68674014-1afd-41a6-bd5d-a469e5a61fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="result\title">
+      <UniqueIdentifier>{18d3971a-dc4a-4809-96d8-be0d2cae136c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\Setting">
+      <UniqueIdentifier>{5b8831c1-8642-49eb-91d5-156ec7270a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="active_scene\UI\reload">
+      <UniqueIdentifier>{5e91a573-85e2-4455-9829-c9820db09d6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="billboard.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\active_player.cpp">
+      <Filter>active_scene\player</Filter>
     </ClCompile>
-    <ClCompile Include="block.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\active_scene.cpp">
+      <Filter>active_scene</Filter>
     </ClCompile>
-    <ClCompile Include="camera.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\active_scene_state.cpp">
+      <Filter>active_scene</Filter>
     </ClCompile>
-    <ClCompile Include="character.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\assault_behavior.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="colision.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\attack_manager.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="fade.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\blink_back_UI.cpp">
+      <Filter>active_scene\UI\blink</Filter>
     </ClCompile>
-    <ClCompile Include="field.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\blink_icon.cpp">
+      <Filter>active_scene\UI\blink</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ammo_UI.cpp">
+      <Filter>active_scene\UI\ammo</Filter>
     </ClCompile>
-    <ClCompile Include="input.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\blink_UI.cpp">
+      <Filter>active_scene\UI\blink</Filter>
     </ClCompile>
-    <ClCompile Include="light.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\block.cpp">
+      <Filter>active_scene\block</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\block_piece.cpp">
+      <Filter>active_scene\block</Filter>
     </ClCompile>
-    <ClCompile Include="manager.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\boss_behavior.cpp">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClCompile>
-    <ClCompile Include="model.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\boss_enemy.cpp">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClCompile>
-    <ClCompile Include="model_parts.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\boss_state.cpp">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClCompile>
-    <ClCompile Include="number.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\broken_smoke.cpp">
+      <Filter>active_scene\smoke</Filter>
     </ClCompile>
-    <ClCompile Include="object.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\bullet.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="object2D.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\dash_effect.cpp">
+      <Filter>active_scene\effect</Filter>
     </ClCompile>
-    <ClCompile Include="object3D.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\death_icon.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="objectX.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\enemy.cpp">
+      <Filter>active_scene\enemy</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\enemy_behavior.cpp">
+      <Filter>active_scene\enemy</Filter>
     </ClCompile>
-    <ClCompile Include="precompile.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\enemy_reaction_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="renderer.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\game.cpp">
+      <Filter>active_scene\game</Filter>
     </ClCompile>
-    <ClCompile Include="result.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\game_player.cpp">
+      <Filter>active_scene\player</Filter>
     </ClCompile>
-    <ClCompile Include="result_screen.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\game_score.cpp">
+      <Filter>active_scene\game</Filter>
     </ClCompile>
-    <ClCompile Include="scene.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\game_state.cpp">
+      <Filter>active_scene\game</Filter>
     </ClCompile>
-    <ClCompile Include="sound.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\gauge.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="texture.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\gun.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="title.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\gun_behavior.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="title_screen.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\gun_icon.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\hit_camera_effect.cpp">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClCompile>
-    <ClCompile Include="attack_manager.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\hit_camera_effect_mild.cpp">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClCompile>
-    <ClCompile Include="bullet.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\hit_camera_effect_moderate.cpp">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClCompile>
-    <ClCompile Include="reticle.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\hit_camera_effect_severe.cpp">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClCompile>
-    <ClCompile Include="gun.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\centerdot.cpp">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClCompile>
-    <ClCompile Include="ammo_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\crosshair.cpp">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClCompile>
-    <ClCompile Include="wave.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\hitmaker.cpp">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClCompile>
-    <ClCompile Include="enemy.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\keyboard_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="score.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\life_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="wave_one.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\minigun_behavior.cpp">
+      <Filter>active_scene\gun</Filter>
     </ClCompile>
-    <ClCompile Include="wave_two.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\billboard.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="wave_three.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>system\camera</Filter>
     </ClCompile>
-    <ClCompile Include="wave_boss.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\camera_state.cpp">
+      <Filter>system\camera</Filter>
     </ClCompile>
-    <ClCompile Include="wave_result.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\character.cpp">
+      <Filter>obj\character</Filter>
     </ClCompile>
-    <ClCompile Include="wave_result_screen.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\character_behavior.cpp">
+      <Filter>obj\character</Filter>
     </ClCompile>
-    <ClCompile Include="wave_score.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\character_state.cpp">
+      <Filter>obj\character</Filter>
     </ClCompile>
-    <ClCompile Include="game_score.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\colision.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="character_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\fade.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="gun_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\field.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="enemy_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\input.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="player_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\light.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="assault_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\main.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="character_state.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\manager.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="wall.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\mask.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="life_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\model.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="boss_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\model_parts.cpp">
+      <Filter>obj\character</Filter>
     </ClCompile>
-    <ClCompile Include="normal_enemy_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\mouse_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="normal_enemy.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\move_point.cpp">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClCompile>
-    <ClCompile Include="boss_enemy.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\muzzle_flash.cpp">
+      <Filter>active_scene\effect</Filter>
     </ClCompile>
-    <ClCompile Include="move_point.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\normal_enemy.cpp">
+      <Filter>active_scene\enemy\normal</Filter>
     </ClCompile>
-    <ClCompile Include="boss_state.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\normal_enemy_behavior.cpp">
+      <Filter>active_scene\enemy\normal</Filter>
     </ClCompile>
-    <ClCompile Include="minigun_behavior.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\number.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="smoke.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\object.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="smoke_grenade.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\object2D.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="smoke_range.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\object2D_anim.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="hit_camera_effect.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\object3D.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="hit_camera_effect_mild.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\objectX.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="hit_camera_effect_moderate.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\pause_mask.cpp">
+      <Filter>active_scene\pause</Filter>
     </ClCompile>
-    <ClCompile Include="hit_camera_effect_severe.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\pause_select.cpp">
+      <Filter>active_scene\UI\pause</Filter>
     </ClCompile>
-    <ClCompile Include="enemy_reload_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\pause_select_continue.cpp">
+      <Filter>active_scene\UI\pause</Filter>
     </ClCompile>
-    <ClCompile Include="player_UI_box.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\pause_select_quit.cpp">
+      <Filter>active_scene\UI\pause</Filter>
     </ClCompile>
-    <ClCompile Include="gauge.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\pause_select_retry.cpp">
+      <Filter>active_scene\UI\pause</Filter>
     </ClCompile>
-    <ClCompile Include="gun_icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\player_UI_box.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="ult.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="player_state.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\precompile.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="camera_state.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\result.cpp">
+      <Filter>result</Filter>
     </ClCompile>
-    <ClCompile Include="ult_range.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\result_screen.cpp">
+      <Filter>result</Filter>
     </ClCompile>
-    <ClCompile Include="ult_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\reticle.cpp">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClCompile>
-    <ClCompile Include="ult_icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="ult_icon_effect.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\score.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="object2D_anim.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\shadow.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="dash_effect.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\smoke.cpp">
+      <Filter>active_scene\smoke</Filter>
     </ClCompile>
-    <ClCompile Include="crosshair.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\smoke_grenade.cpp">
+      <Filter>active_scene\smoke</Filter>
     </ClCompile>
-    <ClCompile Include="centerdot.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\smoke_icon.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="hitmaker.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\smoke_range.cpp">
+      <Filter>active_scene\smoke</Filter>
     </ClCompile>
-    <ClCompile Include="smoke_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\smoke_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="smoke_icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\sound.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="enemy_reaction_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\stencil_mask.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="enemy_confusion_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\tackle_charge.cpp">
+      <Filter>active_scene\effect</Filter>
     </ClCompile>
-    <ClCompile Include="keyboard_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\tactical_smoke.cpp">
+      <Filter>active_scene\smoke</Filter>
     </ClCompile>
-    <ClCompile Include="death_icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\test.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\title.cpp">
+      <Filter>result\title</Filter>
     </ClCompile>
-    <ClCompile Include="action_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\title_player.cpp">
+      <Filter>result\title</Filter>
     </ClCompile>
-    <ClCompile Include="mouse_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\title_screen.cpp">
+      <Filter>result\title</Filter>
     </ClCompile>
-    <ClCompile Include="mask.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>active_scene\tutorial</Filter>
     </ClCompile>
-    <ClCompile Include="muzzle_flash.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\tutorial_screen.cpp">
+      <Filter>active_scene\tutorial</Filter>
     </ClCompile>
-    <ClCompile Include="ult_camera_effect.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\tutorial_UI.cpp">
+      <Filter>active_scene\tutorial</Filter>
     </ClCompile>
-    <ClCompile Include="tutorial_screen.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult.cpp">
+      <Filter>active_scene\player</Filter>
     </ClCompile>
-    <ClCompile Include="shadow.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_camera_effect.cpp">
+      <Filter>active_scene\effect</Filter>
     </ClCompile>
-    <ClCompile Include="ult_effect.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_effect.cpp">
+      <Filter>active_scene\effect</Filter>
     </ClCompile>
-    <ClCompile Include="blink_icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_icon.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="icon.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_icon_effect.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="blink_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_range.cpp">
+      <Filter>active_scene\player</Filter>
     </ClCompile>
-    <ClCompile Include="blink_back_UI.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\ult_UI.cpp">
+      <Filter>active_scene\UI</Filter>
     </ClCompile>
-    <ClCompile Include="block_piece.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\useful.cpp">
+      <Filter>system</Filter>
     </ClCompile>
-    <ClCompile Include="tackle_charge.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\wall.cpp">
+      <Filter>obj</Filter>
     </ClCompile>
-    <ClCompile Include="tactical_smoke.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\wave.cpp">
+      <Filter>active_scene\game\wave</Filter>
     </ClCompile>
-    <ClCompile Include="broken_smoke.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\wave_boss.cpp">
+      <Filter>active_scene\game\wave</Filter>
     </ClCompile>
-    <ClCompile Include="useful.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="src\wave_one.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wave_result.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wave_result_screen.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wave_score.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wave_three.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wave_two.cpp">
+      <Filter>active_scene\game\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="src\action_UI.cpp">
+      <Filter>active_scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial_player.cpp">
+      <Filter>active_scene\tutorial\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player_behavior.cpp">
+      <Filter>obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player_state.cpp">
+      <Filter>obj\character</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial_state.cpp">
+      <Filter>active_scene\tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pause_select_setting.cpp">
+      <Filter>active_scene\UI\pause</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setting_UI.cpp">
+      <Filter>active_scene\UI\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy_confusion_UI.cpp">
+      <Filter>active_scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\decimal_point.cpp">
+      <Filter>obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\close_pause_UI.cpp">
+      <Filter>active_scene\UI\pause</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sens_txt_UI.cpp">
+      <Filter>active_scene\UI\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reload_UI.cpp">
+      <Filter>active_scene\UI\reload</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reload_txt.cpp">
+      <Filter>active_scene\UI\reload</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="billboard.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\action_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="block.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\active_player.h">
+      <Filter>active_scene\player</Filter>
     </ClInclude>
-    <ClInclude Include="camera.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\active_scene.h">
+      <Filter>active_scene</Filter>
     </ClInclude>
-    <ClInclude Include="character.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="colision.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_boss.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="fade.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_one.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="field.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_result.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_result_screen.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="input.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_score.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="light.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_three.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wave_two.h">
+      <Filter>active_scene\game\wave</Filter>
     </ClInclude>
-    <ClInclude Include="manager.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\hit_camera_effect.h">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClInclude>
-    <ClInclude Include="model.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\hit_camera_effect_mild.h">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClInclude>
-    <ClInclude Include="model_parts.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\hit_camera_effect_moderate.h">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClInclude>
-    <ClInclude Include="number.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\hit_camera_effect_severe.h">
+      <Filter>active_scene\effect\hit_camera</Filter>
     </ClInclude>
-    <ClInclude Include="object.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ammo_UI.h">
+      <Filter>active_scene\UI\ammo</Filter>
     </ClInclude>
-    <ClInclude Include="object2D.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\block.h">
+      <Filter>active_scene\block</Filter>
     </ClInclude>
-    <ClInclude Include="object3D.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\block_piece.h">
+      <Filter>active_scene\block</Filter>
     </ClInclude>
-    <ClInclude Include="objectX.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\blink_back_UI.h">
+      <Filter>active_scene\UI\blink</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\blink_icon.h">
+      <Filter>active_scene\UI\blink</Filter>
     </ClInclude>
-    <ClInclude Include="precompile.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\blink_UI.h">
+      <Filter>active_scene\UI\blink</Filter>
     </ClInclude>
-    <ClInclude Include="renderer.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\active_scene_state.h">
+      <Filter>active_scene</Filter>
     </ClInclude>
-    <ClInclude Include="result.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\assault_behavior.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="result_screen.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\attack_manager.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="scene.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\billboard.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="sound.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\boss_behavior.h">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClInclude>
-    <ClInclude Include="texture.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\boss_enemy.h">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClInclude>
-    <ClInclude Include="title.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\boss_state.h">
+      <Filter>active_scene\enemy\boss</Filter>
     </ClInclude>
-    <ClInclude Include="title_screen.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\broken_smoke.h">
+      <Filter>active_scene\smoke</Filter>
     </ClInclude>
-    <ClInclude Include="test.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\camera_state.h">
+      <Filter>system\camera</Filter>
     </ClInclude>
-    <ClInclude Include="attack_manager.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\camera.h">
+      <Filter>system\camera</Filter>
     </ClInclude>
-    <ClInclude Include="bullet.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\object.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="reticle.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\object2D.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="gun.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\object2D_anim.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="ammo_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\object3D.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="wave.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\objectX.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="enemy.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\character.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="score.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\character_behavior.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="wave_one.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\character_state.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="wave_two.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\smoke.h">
+      <Filter>active_scene\smoke</Filter>
     </ClInclude>
-    <ClInclude Include="wave_three.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\smoke_grenade.h">
+      <Filter>active_scene\smoke</Filter>
     </ClInclude>
-    <ClInclude Include="wave_boss.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\smoke_range.h">
+      <Filter>active_scene\smoke</Filter>
     </ClInclude>
-    <ClInclude Include="wave_result.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\colision.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="wave_result_screen.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\fade.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="wave_score.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\field.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="game_score.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\mask.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="character_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\number.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="gun_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\score.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="enemy_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\shadow.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="player_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\stencil_mask.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="assault_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\wall.h">
+      <Filter>obj</Filter>
     </ClInclude>
-    <ClInclude Include="character_state.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\pause_select.h">
+      <Filter>active_scene\UI\pause</Filter>
     </ClInclude>
-    <ClInclude Include="wall.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\pause_select_continue.h">
+      <Filter>active_scene\UI\pause</Filter>
     </ClInclude>
-    <ClInclude Include="life_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\pause_select_quit.h">
+      <Filter>active_scene\UI\pause</Filter>
     </ClInclude>
-    <ClInclude Include="boss_enemy.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\pause_select_retry.h">
+      <Filter>active_scene\UI\pause</Filter>
     </ClInclude>
-    <ClInclude Include="boss_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\pause_mask.h">
+      <Filter>active_scene\pause</Filter>
     </ClInclude>
-    <ClInclude Include="normal_enemy_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult.h">
+      <Filter>active_scene\player</Filter>
     </ClInclude>
-    <ClInclude Include="normal_enemy.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult_range.h">
+      <Filter>active_scene\player</Filter>
     </ClInclude>
-    <ClInclude Include="enemy_state.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="move_point.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult_icon.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="boss_state.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult_icon_effect.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="minigun_behavior.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\ult_effect.h">
+      <Filter>active_scene\effect</Filter>
     </ClInclude>
-    <ClInclude Include="smoke.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\test.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="smoke_grenade.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\centerdot.h">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClInclude>
-    <ClInclude Include="smoke_range.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\crosshair.h">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClInclude>
-    <ClInclude Include="hit_camera_effect.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\reticle.h">
+      <Filter>active_scene\UI\reticle</Filter>
     </ClInclude>
-    <ClInclude Include="hit_camera_effect_mild.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\tutorial_screen.h">
+      <Filter>active_scene\tutorial</Filter>
     </ClInclude>
-    <ClInclude Include="hit_camera_effect_moderate.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\tutorial_UI.h">
+      <Filter>active_scene\tutorial</Filter>
     </ClInclude>
-    <ClInclude Include="hit_camera_effect_severe.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\tutorial.h">
+      <Filter>active_scene\tutorial</Filter>
     </ClInclude>
-    <ClInclude Include="enemy_reload_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\tutorial_player.h">
+      <Filter>active_scene\tutorial\player</Filter>
     </ClInclude>
-    <ClInclude Include="player_UI_box.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\title.h">
+      <Filter>result\title</Filter>
     </ClInclude>
-    <ClInclude Include="gauge.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\title_player.h">
+      <Filter>result\title</Filter>
     </ClInclude>
-    <ClInclude Include="gun_icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\title_screen.h">
+      <Filter>result\title</Filter>
     </ClInclude>
-    <ClInclude Include="ult.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\result.h">
+      <Filter>result</Filter>
     </ClInclude>
-    <ClInclude Include="player_state.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\result_screen.h">
+      <Filter>result</Filter>
     </ClInclude>
-    <ClInclude Include="camera_state.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\enemy.h">
+      <Filter>active_scene\enemy</Filter>
     </ClInclude>
-    <ClInclude Include="ult_range.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\enemy_behavior.h">
+      <Filter>active_scene\enemy</Filter>
     </ClInclude>
-    <ClInclude Include="ult_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\death_icon.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="ult_icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\enemy_reaction_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="ult_icon_effect.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\keyboard_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="object2D_anim.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\gun_icon.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="dash_effect.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\life_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="crosshair.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\mouse_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="centerdot.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\player_UI_box.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="hitmaker.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\smoke_icon.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="smoke_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\smoke_UI.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="smoke_icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\gauge.h">
+      <Filter>active_scene\UI</Filter>
     </ClInclude>
-    <ClInclude Include="enemy_reaction_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\player_state.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="enemy_confusion_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\player_behavior.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="keyboard_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\player.h">
+      <Filter>obj\character</Filter>
     </ClInclude>
-    <ClInclude Include="death_icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\normal_enemy.h">
+      <Filter>active_scene\enemy\normal</Filter>
     </ClInclude>
-    <ClInclude Include="tutorial.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\normal_enemy_behavior.h">
+      <Filter>active_scene\enemy\normal</Filter>
     </ClInclude>
-    <ClInclude Include="tutorial_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\minigun_behavior.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="action_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\gun.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="mouse_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\gun_behavior.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="mask.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\bullet.h">
+      <Filter>active_scene\gun</Filter>
     </ClInclude>
-    <ClInclude Include="muzzle_flash.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\game_score.h">
+      <Filter>active_scene\game</Filter>
     </ClInclude>
-    <ClInclude Include="ult_camera_effect.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\game.h">
+      <Filter>active_scene\game</Filter>
     </ClInclude>
-    <ClInclude Include="tutorial_screen.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\game_state.h">
+      <Filter>active_scene\game</Filter>
     </ClInclude>
-    <ClInclude Include="shadow.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\game_player.h">
+      <Filter>active_scene\player</Filter>
     </ClInclude>
-    <ClInclude Include="ult_effect.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\dash_effect.h">
+      <Filter>active_scene\effect</Filter>
     </ClInclude>
-    <ClInclude Include="icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\muzzle_flash.h">
+      <Filter>active_scene\effect</Filter>
     </ClInclude>
-    <ClInclude Include="blink_icon.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\tackle_charge.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="blink_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\input.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="blink_back_UI.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\light.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="block_piece.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\main.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="tackle_charge.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\manager.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="tactical_smoke.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\model.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="broken_smoke.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\precompile.h">
+      <Filter>system</Filter>
     </ClInclude>
-    <ClInclude Include="useful.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="src\renderer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\useful.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\move_point.h">
+      <Filter>active_scene\enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model_parts.h">
+      <Filter>obj\character</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tactical_smoke.h">
+      <Filter>active_scene\smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hitmaker.h">
+      <Filter>active_scene\UI\reticle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tutorial_state.h">
+      <Filter>active_scene\tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pause_select_setting.h">
+      <Filter>active_scene\UI\pause</Filter>
+    </ClInclude>
+    <ClInclude Include="src\setting_UI.h">
+      <Filter>active_scene\UI\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy_confusion_UI.h">
+      <Filter>active_scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sens_number.h">
+      <Filter>active_scene\UI\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\decimal_point.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\close_pause_UI.h">
+      <Filter>active_scene\UI\pause</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sens_txt_UI.h">
+      <Filter>active_scene\UI\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ult_camera_effect.h">
+      <Filter>active_scene\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reload_UI.h">
+      <Filter>active_scene\UI\reload</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reload_txt.h">
+      <Filter>active_scene\UI\reload</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
