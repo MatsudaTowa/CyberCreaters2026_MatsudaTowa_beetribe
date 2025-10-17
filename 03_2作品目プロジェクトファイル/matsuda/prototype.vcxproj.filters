@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{c6ea8e29-063c-4858-adb8-ac72f601374d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\board">
+      <UniqueIdentifier>{2483cfa2-d572-4533-8c84-1e92ede3581d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{f8963ab7-1cdb-4360-ae33-7dcae78967d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\board_holder">
+      <UniqueIdentifier>{c468e732-ce47-4070-8444-ceb193386b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{8f0b950c-7afc-4a14-90b2-c6d2054eb469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\player">
+      <UniqueIdentifier>{aa827e43-b686-4641-acad-f37d02dda132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\2D">
+      <UniqueIdentifier>{45495f6e-1120-48de-aa3e-385557e778f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\3D">
+      <UniqueIdentifier>{c6295f23-e16c-4409-9e32-5bf80b5dc71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\X">
+      <UniqueIdentifier>{12d27009-1cae-4b4f-a01f-d25be5dfd509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\X\motion">
+      <UniqueIdentifier>{9c19673b-e840-4361-931b-6dfdfe78c8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{f4198a3d-535d-4dcf-b76a-c4c42bc5ed53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="title">
+      <UniqueIdentifier>{b4d80a45-4ba9-4890-88c6-280e641c7f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="result">
+      <UniqueIdentifier>{c9e295ca-630b-44cc-bd81-9d670c61e218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\effect">
+      <UniqueIdentifier>{826b4e9f-96bf-4091-a455-881293ac16b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\UI">
+      <UniqueIdentifier>{ef23a51f-ab07-45d8-a93c-297be1f74128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\UI\hit_UI">
+      <UniqueIdentifier>{fa852931-2925-4628-bd0d-b24a618febe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\mouse_cursor">
+      <UniqueIdentifier>{d07e5625-cc36-4cb6-9401-236e76c2b89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\mouse_cursor\trail">
+      <UniqueIdentifier>{1b73e333-6782-45e3-a5c2-38ba43f589bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\board.cpp">
+      <Filter>game\board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board_danger.cpp">
+      <Filter>game\board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board_hard.cpp">
+      <Filter>game\board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board_normal.cpp">
+      <Filter>game\board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board_holder.cpp">
+      <Filter>game\board_holder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_state.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\board_holder_generator.cpp">
+      <Filter>game\board_holder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_cursor_state.cpp">
+      <Filter>game\mouse_cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_manager.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_player.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_player_state.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hit_UI.cpp">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hit_UI_break.cpp">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hit_UI_stun.cpp">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_trail.cpp">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_trail_point.cpp">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.cpp">
+      <Filter>obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\billboard.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character.cpp">
+      <Filter>obj\X\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\field.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>obj\X</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model_parts.cpp">
+      <Filter>obj\X\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object2D.cpp">
+      <Filter>obj\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object2D_anim.cpp">
+      <Filter>obj\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object3D.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object3D_anim.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object3D_mesh.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objectX.cpp">
+      <Filter>obj\X</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>obj\X\motion</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player_move_point.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shadow.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\colision.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fade.cpp">
+      <Filter>obj\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\manager.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\precompile.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_cursor.cpp">
+      <Filter>obj\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title.cpp">
+      <Filter>title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\library_kasai\result_rank.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result_screen.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result_ui.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\useful.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title_screen.cpp">
+      <Filter>title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\move_point.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_state.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\title_camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\number.cpp">
+      <Filter>obj</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\paper.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time_scale.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_trail_normal.cpp">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClCompile>
+    <ClCompile Include="src\belt.cpp">
+      <Filter>obj\X</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flash_effect.cpp">
+      <Filter>game\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle.cpp">
+      <Filter>obj\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\combo.cpp">
+      <Filter>game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_field.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\splash_effect.cpp">
+      <Filter>game\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\score.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result_camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mouse_trail_special.cpp">
+      <Filter>game\mouse_cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_mouse_cursor.cpp">
+      <Filter>game\mouse_cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ink_field.cpp">
+      <Filter>game\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ink_dot.cpp">
+      <Filter>game\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\result_player.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound_bgm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound_se.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\billboard.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board.h">
+      <Filter>game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board_danger.h">
+      <Filter>game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board_hard.h">
+      <Filter>game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board_holder.h">
+      <Filter>game\board_holder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board_holder_generator.h">
+      <Filter>game\board_holder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\board_normal.h">
+      <Filter>game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_state.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\character.h">
+      <Filter>obj\X\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\colision.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\count.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fade.h">
+      <Filter>obj\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\field.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_manager.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_mouse_cursor.h">
+      <Filter>game\mouse_cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_player.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_player_state.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hit_UI.h">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hit_UI_break.h">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hit_UI_stun.h">
+      <Filter>game\UI\hit_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\manager.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>obj\X</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model_parts.h">
+      <Filter>obj\X\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_cursor.h">
+      <Filter>obj\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object2D.h">
+      <Filter>obj\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object2D_anim.h">
+      <Filter>obj\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object3D.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object3D_anim.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object3D_mesh.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objectX.h">
+      <Filter>obj\X</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player.h">
+      <Filter>obj\X\motion</Filter>
+    </ClInclude>
+    <ClInclude Include="src\player_move_point.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_trail_point.h">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_trail.h">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precompile.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\library_kasai\result_rank.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result_screen.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result_ui.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shadow.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title_screen.h">
+      <Filter>title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title.h">
+      <Filter>title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\useful.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\move_point.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_state.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\title_camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\number.h">
+      <Filter>obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\paper.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\time_scale.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_trail_normal.h">
+      <Filter>game\mouse_cursor\trail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\belt.h">
+      <Filter>obj\X</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flash_effect.h">
+      <Filter>game\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particle.h">
+      <Filter>obj\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\combo.h">
+      <Filter>game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_field.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\splash_effect.h">
+      <Filter>game\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\score.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result_camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_cursor_state.h">
+      <Filter>game\mouse_cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mouse_trail_special.h">
+      <Filter>game\mouse_cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ink_field.h">
+      <Filter>game\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ink_dot.h">
+      <Filter>game\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result_player.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound_bgm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound_se.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\soundmanager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
